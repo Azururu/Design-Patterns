@@ -1,3 +1,5 @@
-abstract class TextField {
-    abstract void display();
+abstract class TextField extends UIElement {
+    public TextField(String text) {
+        super(text);
+    }
 }

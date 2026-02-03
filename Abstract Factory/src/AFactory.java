@@ -1,16 +1,16 @@
 public class AFactory extends UIFactory {
     @Override
-    public void createButton(String text) {
-        ButtonA buttonA = new ButtonA();
+    public ButtonA createButton(String text) {
+        return new ButtonA(text);
     }
 
     @Override
-    public void createTextField(String text) {
-        TextFieldA textFieldA = new TextFieldA();
+    public TextFieldA createTextField(String text) {
+        return new TextFieldA(text);
     }
 
     @Override
-    public void createCheckBox(String text) {
-        CheckBoxA checkBoxA = new CheckBoxA();
+    public CheckBoxA createCheckBox(String text) {
+        return new CheckBoxA(text);
     }
 }

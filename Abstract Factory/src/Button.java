@@ -1,3 +1,5 @@
-abstract class Button {
-    abstract void display();
+abstract class Button extends UIElement {
+    public Button(String text) {
+        super(text);
+    }
 }

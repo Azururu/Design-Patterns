@@ -1,3 +1,5 @@
-abstract class CheckBox {
-    abstract void display();
+abstract class CheckBox extends UIElement {
+    public CheckBox(String text) {
+        super(text);
+    }
 }
