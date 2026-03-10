@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Decorator" />
+        <module name="Strategy" />
         <module name="Singleton" />
         <module name="State" />
         <module name="Observer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TemplateMethod" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
