@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design-Patterns.iml" filepath="$PROJECT_DIR$/Design-Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory Method/Factory Method.iml" filepath="$PROJECT_DIR$/Factory Method/Factory Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memento/Memento.iml" filepath="$PROJECT_DIR$/Memento/Memento.iml" />
     </modules>
   </component>
 </project>
