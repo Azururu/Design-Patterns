@@ -10,6 +10,7 @@
         <module name="TemplateMethod" />
         <module name="Memento" />
         <module name="Proxy" />
+        <module name="Prototype" />
         <module name="Singleton" />
         <module name="State" />
         <module name="Observer" />
