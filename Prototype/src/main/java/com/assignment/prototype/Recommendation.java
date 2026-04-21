@@ -1,3 +1,5 @@
+package com.assignment.prototype;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,5 +26,30 @@ public class Recommendation implements Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
+    }
+
+    public void addBook(Book book) {
+        recommendedBooks.add(book);
+    }
+
+    public void removeBook(Book book) {
+        recommendedBooks.remove(book);
+    }
+
+    public String getTargetAudience() {
+        return targetAudience;
+    }
+
+    public void setTargetAudience(String targetAudience) {
+        this.targetAudience = targetAudience;
+    }
+
+    public List<Book> getRecommendedBooks() {
+        return recommendedBooks;
+    }
+
+    @Override
+    public String toString() {
+        return targetAudience;
     }
 }

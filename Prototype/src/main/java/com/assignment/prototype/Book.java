@@ -1,3 +1,5 @@
+package com.assignment.prototype;
+
 public class Book implements Cloneable {
     private String author;
     private String title;
@@ -18,5 +20,10 @@ public class Book implements Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %s, %d", author, title, genre, publicationYear);
     }
 }
