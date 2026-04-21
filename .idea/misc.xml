@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/Builder/pom.xml" />
         <option value="$PROJECT_DIR$/Adapter/pom.xml" />
         <option value="$PROJECT_DIR$/Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Mediator/pom.xml" />
       </list>
     </option>
   </component>
